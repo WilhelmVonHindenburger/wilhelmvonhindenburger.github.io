@@ -1,2 +1,4 @@
 # wilhelmvonhindenburger.github.io
-My website
+My website for things
+
+* https://wilhelmvonhindenburger.github.io
