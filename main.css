@@ -1,20 +1,41 @@
 h1,h2,h3{
-    line-height:1.2
-}     
+    line-height:1.2;
+    color:#6e6;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:#22f;
+}
+a:visited{
+    color:#88f;
+}
 body {
     font-family: Open Sans, Roboto;
     margin:40px auto;
     max-width:650px;
     line-height:1.6;
     font-size:18px;
-    color:#444;
-    padding:0 10px
+    background-color: #111;
+    color:#eee;
+    padding:0 10px;
+}
+/*Large line breaks*/
+.break{
+  display: block;
+  margin-bottom: 10em;
+}
+/* Space out the scores from the navbar and text */
+.scores{
+  margin-top: 10em;
+  margin-bottom: 2em;
 }
 /* Style the navigation bar links */
 .navbar a {
     float: left; /* Make sure that the links stay side-by-side */
     text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
+    padding: 8px 20px; /* Add some padding */
     text-decoration: none; /* Remove underline */
 }
 /* Right-aligned link */
